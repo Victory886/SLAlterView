@@ -13,6 +13,7 @@
 		38A5BCA31CD82D1800180ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A5BCA11CD82D1800180ED3 /* Main.storyboard */; };
 		38A5BCA51CD82D1800180ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5BCA41CD82D1800180ED3 /* Assets.xcassets */; };
 		38A5BCA81CD82D1800180ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A5BCA61CD82D1800180ED3 /* LaunchScreen.storyboard */; };
+		38A5BCB11CD82F3300180ED3 /* ShowTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A5BCB01CD82F3300180ED3 /* ShowTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		38A5BCA41CD82D1800180ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A5BCA71CD82D1800180ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A5BCA91CD82D1800180ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A5BCAF1CD82F3300180ED3 /* ShowTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTitleView.h; sourceTree = "<group>"; };
+		38A5BCB01CD82F3300180ED3 /* ShowTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				38A5BC9C1CD82D1800180ED3 /* AppDelegate.m */,
 				38A5BC9E1CD82D1800180ED3 /* ViewController.h */,
 				38A5BC9F1CD82D1800180ED3 /* ViewController.m */,
+				38A5BCAF1CD82F3300180ED3 /* ShowTitleView.h */,
+				38A5BCB01CD82F3300180ED3 /* ShowTitleView.m */,
 				38A5BCA11CD82D1800180ED3 /* Main.storyboard */,
 				38A5BCA41CD82D1800180ED3 /* Assets.xcassets */,
 				38A5BCA61CD82D1800180ED3 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A5BCB11CD82F3300180ED3 /* ShowTitleView.m in Sources */,
 				38A5BCA01CD82D1800180ED3 /* ViewController.m in Sources */,
 				38A5BC9D1CD82D1800180ED3 /* AppDelegate.m in Sources */,
 				38A5BC9A1CD82D1800180ED3 /* main.m in Sources */,
